@@ -543,6 +543,9 @@ h1 {
 
 .code-block {
   margin: 10px 0;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 /* Additional classes for App.tsx inline styles */
@@ -575,4 +578,14 @@ h1 {
   padding: 12px;
   margin: 0;
   user-select: text;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Add pre tag styling to handle overflow */
+pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-width: 100%;
+  overflow-x: auto;
 }

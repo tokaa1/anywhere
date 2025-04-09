@@ -58,9 +58,9 @@ function Message({ content, isUser, model, images, onRetry }: MessageProps) {
             <SyntaxHighlighter
               language={match[1]}
               style={vscDarkPlus as any}
-              customStyle={{}}
+              customStyle={{ overflow: 'auto', width: '100%' }}
               wrapLines={true}
-              wrapLongLines={false}
+              wrapLongLines={true}
               showLineNumbers={true}
               useInlineStyles={true}
               codeTagProps={{

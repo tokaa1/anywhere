@@ -45,7 +45,6 @@ function createWindow(): BrowserWindow {
     }
   })
   WINDOW = window;
-  window.setContentProtection(true)//muahahahaha
 
   globalShortcut.register('CommandOrControl+D', () => {
     if (WINDOW?.isVisible()) {

@@ -1,9 +1,8 @@
 # anywhere
-Use LLMS from anywhere via an overlay.
+Use LLMs from anywhere via an overlay.
 
 currently only supporting ollama
-
-(also undetectable to screenshares and screenshots [via content protection])
+![Screenshot](screenshot.png)
 
 ## ✨ Features
 - Transluscent, toggleable overlay with Command/Control+D
