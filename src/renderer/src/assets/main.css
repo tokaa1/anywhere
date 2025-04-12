@@ -1,6 +1,6 @@
 :root {
   /* Default theme (dark) */
-  --color-background: rgba(7, 7, 7, 0.4);
+  --color-background: rgba(7, 7, 7, 0.2);
   --color-surface: rgba(40, 40, 40, 0.2);
   --color-text: rgba(255, 255, 255, 1);
   --color-text-secondary: rgba(255, 255, 255, 0.5);
@@ -18,7 +18,7 @@
 
 /* Light Theme */
 .theme-light {
-  --color-background: rgba(240, 240, 240, 0.4);
+  --color-background: rgba(240, 240, 240, 0.2);
   --color-surface: rgba(200, 200, 200, 0.2);
   --color-text: rgba(0, 0, 0, 0.9);
   --color-text-secondary: rgba(0, 0, 0, 0.6);
@@ -33,7 +33,7 @@
 
 /* Vibrant Theme 1 - Purple/Blue */
 .theme-vibrant-1 {
-  --color-background: rgba(25, 10, 50, 0.4);
+  --color-background: rgba(25, 10, 50, 0.2);
   --color-surface: rgba(80, 50, 150, 0.2);
   --color-text: rgba(255, 255, 255, 1);
   --color-text-secondary: rgba(180, 200, 255, 0.7);
@@ -48,7 +48,7 @@
 
 /* Vibrant Theme 2 - Teal/Green */
 .theme-vibrant-2 {
-  --color-background: rgba(10, 40, 30, 0.4);
+  --color-background: rgba(10, 40, 30, 0.2);
   --color-surface: rgba(40, 120, 90, 0.2);
   --color-text: rgba(255, 255, 255, 1);
   --color-text-secondary: rgba(180, 255, 220, 0.7);
@@ -89,7 +89,7 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: rgba(7, 7, 7, 0.4);
+  background: rgba(7, 7, 7, 0.2);
   opacity: 1;
   border-radius: 10px;
   margin: 0;

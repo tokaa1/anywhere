@@ -1,7 +1,7 @@
 # anywhere
-Use LLMs from anywhere via an overlay.
+Using LLMs from anywhere via an overlay.
 
-currently only supporting ollama
+mostly POC, currently only supporting ollama
 ![Screenshot](screenshot.png)
 
 ## ✨ Features
